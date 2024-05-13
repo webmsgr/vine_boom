@@ -1,0 +1,10 @@
+[package]
+name = "vine_boom"
+version = "1.0.0"
+edition = "2021"
+description = "Vine boom sound effect"
+
+
+[dependencies]
+rand = "0.8.5"
+rodio = { version = "0.18.0", default-features = false, features = ["vorbis"] }
